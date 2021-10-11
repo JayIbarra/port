@@ -2,66 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>About Me</title>
+    <title>Jay Ibarra's Work</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
     <!-- navigation -->
     <header>
-        <h1>
-            <a href = "/">Jay Ibarra's Work</a>
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                    </li>
-                    <li>
-                        <a href="work">Work</a>
-                    </li>
-                </ul>
-            </nav>
+        <h1>My portfolio</h1>
      </header>
      <!-- end navigation -->
 
      <!-- hero -->
      <section class="hero">
         <div class="hero-cta">
-          <h2>About Me</h2>
-          <img src="./assets/images/headshot.jpg" id="headshot" alt="Arron Stephens in his workout clothes, ready to pump iron" /> 
-          <p>
-            seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it
-            messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund
-            Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche
-            tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you
-            probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
+          <h2>About Jay Ibarra</h2><br>
+          <img src="./assets/images/headshot.jpg" id="headshot" alt="Jay Ibarra headshot" /> 
+          <p><br>
+             Hello, my name is Jay Ibarra. Thanks for landing on this page. <br>I currently reside in the DMV area, and am studying Full Stack Development. Take a look at my work.
           </p>
         </div>
 
     <!-- end header -->
 
-    <!-- "project" section-->
-    <section id="my-project">
-        <div class="flex-row">
-            <h2 class="section-title primary-border">
-                Run Buddy
-            </h2>
-        </div>
-    </section>
-
+    <!-- "project #1"-->
     <div class="my-projects">
-        <article class="project">
+      <element class="container">
+        <article class="project" is-mobile>
           <a href="https://jayibarra.github.io/run-buddy/" target="_blank">
-            <img src="./assets/images/mountain.jpeg" id="project-1-img" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+            <img src="./assets/images/run-buddy.jpg" id="project-1-img" alt="Arron Stephens in his workout clothes, ready to pump iron" />
           </a>
           <div class="project-info">
-            <h3 class="project-name">Arron Stephens</h3>
-            <p> This is my project 2</p>
+            <h3 class="project-name">"Run Buddy"</h3>
           </div>
         </article>
-      </div>
-    <!-- end "work section -->
+    <!-- "project #2"--> 
+        <article class="my-projects-2" is-mobile>
+          <a href="https://jayibarra.github.io/movies/" target="_blank">
+            <img src="./assets/images/movies.jpg" id="project-2-img" alt="dinner and a movie" />
+          </a>
+          <div class="project-info">
+            <h3 class="project-name-2">"Dinner And A Movie"</h3>
+          </div>
+        </article>
+    <!-- "project #3"--> 
+         <article class="my-projects-3" is-mobile>
+          <a href="https://jayibarra.github.io/horiseon-project/" target="_blank">
+            <img src="./assets/images/horiseon.jpg" id="project-3-img" alt="social media project" />
+          </a>
+          <div class="project-info">
+            <h3 class="project-name-3">"Horiseon Project"</h3>
+          </div>
+        </article>
+      </element>
+    </div>
+
+    <!-- end "project" section -->
 
 
    <!-- footer -->

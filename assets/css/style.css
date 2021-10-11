@@ -1,17 +1,26 @@
+/* Image Sizing */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-  
-#headshot {
-  width: 550px;
-  height: 550px;
-}
 
 #project-1-img {
   width: 400px;
   height: 400px;
+}
+
+/* Mobile View Size */
+@media only screen and (max-width: 250px) {
+  #project-1-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+#headshot {
+  width: 550px;
+  height: 550px;
 }
 
 /* Mobile View Size */
@@ -29,3 +38,103 @@
     height: 400px;
   }
 }
+/* Second Image Sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#project-2-img {
+  width: 400px;
+  height: 400px;
+}
+
+/* Mobile View Size */
+@media only screen and (max-width: 250px) {
+  #project-2-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Third Image Sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#project-3-img {
+  width: 400px;
+  height: 400px;
+}
+
+/* Mobile View Size */
+@media only screen and (max-width: 250px) {
+  #project-3-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* End of Image Sizing */
+
+/* Hero Styling */
+.hero {
+  flex-wrap: wrap;
+  justify-content: center;
+  background-position; center;
+  flex-wrap: wrap;
+  position: relative; 
+}
+
+.hero-cta {
+  width: 90%;
+  margin: 3.5%;
+  border: 12px solid white;
+  padding: 20px;
+  color: white;
+  background-color: #303030;
+  text-align: center;
+}
+
+/* End of Hero Styling */
+
+/* Project Section */
+.container {
+  display: flex;
+  flex-direction: row;
+  order: 3;
+  flex-shrink: 1;
+}
+
+.my-projects {
+  text-align: center;
+  width: 90%;
+  margin: 3.5%;
+  border: 12px solid white;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: #152238;
+}
+
+.my-projects-2 {
+  padding-left: 20px;
+}
+
+.my-projects-3 {
+  padding-left: 20px;
+}
+
+
+/* Footer Styling */
+
+.footer {
+  font-size: 10px;
+  text-align: center;
+}
+
+/* End of Footer Styling */
