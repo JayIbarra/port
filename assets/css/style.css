@@ -1,3 +1,20 @@
+/* Navagation */
+
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
 /* Image Sizing */
 * {
   box-sizing: border-box;
@@ -6,8 +23,8 @@
 }
 
 #project-1-img {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
 }
 
 /* Mobile View Size */
